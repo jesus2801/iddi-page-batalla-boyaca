@@ -40,6 +40,30 @@ const HomeGrid = () => {
       />
 
       <HomeCard
+        title="La historia no contada de nuestra independencia"
+        button="¡Pues cuentamela!"
+        desc='Los estudiantes de 11° han elaborado un material audiovisual en donde de manera didactica muestran "Nuestra historia no contada"'
+        image="/static/cards/independencia-2.jpg"
+        link="#!"
+      />
+
+      <HomeCard
+        title="Salve usted la patria"
+        button="¡A por ello!"
+        desc="Los estudiantes de 6°"
+        image="/static/cards/bandera.jpg"
+        link="#!"
+      />
+
+      <HomeCard
+        title="Reportería"
+        button="¡Quiero verlo!"
+        desc="Los estudiantes de 10° grado han tomado papel de reporteros con el fin de hacer un programa informativo que nos oriente más sobre esta temática"
+        image="/static/cards/mic.jpeg"
+        link="#!"
+      />
+
+      <HomeCard
         title="Noticiero"
         button="¡Enterate de todo!"
         desc="Por medio de este noticiero infantil te podrás enterar acerca de los acontecimientos más relevantes ocurridos en este hecho histórico"

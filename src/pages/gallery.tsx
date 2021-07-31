@@ -71,7 +71,7 @@ const gallery = () => {
           <img src="/static/galeria/10.jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/static/galeria/11.jpeg" />
+          <img src="/static/galeria/11.jpg" />
         </SwiperSlide>
       </Swiper>
     </Layout>

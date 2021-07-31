@@ -10,4 +10,5 @@ export interface HomeCardProps {
   title: string;
   desc: string;
   button: string;
+  link: string;
 }

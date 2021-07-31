@@ -4,7 +4,7 @@ import Animation from '@components/organisms/animation/Animation';
 import HomeGrid from '@components/organisms/home-grid/HomeGrid';
 
 const IndexPage = () => (
-  <Layout title="202 años de ">
+  <Layout title="Inicio">
     <Animation />
     <Banner />
     <HomeGrid />

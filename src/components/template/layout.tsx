@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { LayoutProps } from '@interfaces/props.interfaces';
 
 const Layout = ({ children, title }: LayoutProps) => {
+  title = `202 años de historia | ${title}`
   //description
   const desc: string = ``;
 

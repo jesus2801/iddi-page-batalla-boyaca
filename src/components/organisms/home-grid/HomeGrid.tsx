@@ -28,7 +28,7 @@ const HomeGrid = () => {
         button="¡Veamos esas cualidades!"
         desc="Los jovenes de 8° y 9° han preparado una sección en donde enmarcan lo que nos representa a nosotros como colombianos"
         image="/static/cards/colombianos.webp"
-        link="#!"
+        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
 
       <HomeCard
@@ -36,7 +36,7 @@ const HomeGrid = () => {
         button="¡Cuentame más!"
         desc="Los estudiantes de 7° grado han preparado un serie de sorprendentes datos curiosos sobre nuestro proceso de independencia"
         image="/static/cards/independencia.jpg"
-        link="#!"
+        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
 
       <HomeCard
@@ -44,7 +44,7 @@ const HomeGrid = () => {
         button="¡Pues cuentamela!"
         desc='Los estudiantes de 11° han elaborado un material audiovisual en donde de manera didactica muestran "Nuestra historia no contada"'
         image="/static/cards/independencia-2.jpg"
-        link="#!"
+        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
 
       <HomeCard
@@ -52,7 +52,7 @@ const HomeGrid = () => {
         button="¡A por ello!"
         desc="Los estudiantes de 6°"
         image="/static/cards/bandera.jpg"
-        link="#!"
+        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
 
       <HomeCard
@@ -60,7 +60,7 @@ const HomeGrid = () => {
         button="¡Quiero verlo!"
         desc="Los estudiantes de 10° grado han tomado papel de reporteros con el fin de hacer un programa informativo que nos oriente más sobre esta temática"
         image="/static/cards/mic.jpeg"
-        link="#!"
+        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
 
       <HomeCard
@@ -68,7 +68,7 @@ const HomeGrid = () => {
         button="¡Enterate de todo!"
         desc="Por medio de este noticiero infantil te podrás enterar acerca de los acontecimientos más relevantes ocurridos en este hecho histórico"
         image="https://materialgalacticow.files.wordpress.com/2012/01/2099843_460s.jpg?w=376"
-        link="#!"
+        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
     </HomeGridDiv>
   );

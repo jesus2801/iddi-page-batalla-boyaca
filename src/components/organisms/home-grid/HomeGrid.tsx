@@ -20,13 +20,13 @@ const HomeGrid = () => {
         button="¡Descubre a estos héroes!"
         desc="Descubre quiénes fueron cada uno de los principales personajes importantes que participaron en el marco de esta batalla de Boyacá"
         image="/static/cards/simon-bolivar.webp"
-        link="#!"
+        link="/museum"
       />
 
       <HomeCard
         title="Lo que nos representa"
         button="¡Veamos esas cualidades!"
-        desc="Los jóvenes de 8° y 9° han preparado una sección en donde enmarcan lo que nos representa a nosotros como colombianos"
+        desc="Los jóvenes de 8° y 9° han preparado una sección donde enmarcan lo que nos representa a nosotros como colombianos"
         image="/static/cards/colombianos.webp"
         link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
@@ -42,7 +42,7 @@ const HomeGrid = () => {
       <HomeCard
         title="La historia no contada de nuestra independencia"
         button="¡Pues cuéntamela!"
-        desc='Los estudiantes de 11° han elaborado un material audiovisual donde de manera didactica muestran "Nuestra historia no contada"'
+        desc='Los estudiantes de 11° han elaborado un material audiovisual donde, de manera didáctica muestran "Nuestra historia no contada"'
         image="/static/cards/independencia-2.jpg"
         link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />

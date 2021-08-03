@@ -5,6 +5,8 @@ import { HomeCardProps } from '@interfaces/props.interfaces';
 
 import { HomeCardDiv } from './styles';
 
+import Fade from 'react-reveal/Fade';
+
 const HomeCard = ({
   button,
   desc,
@@ -13,17 +15,19 @@ const HomeCard = ({
   link,
 }: HomeCardProps) => {
   return (
-    <HomeCardDiv theme={{ image }}>
-      <div className="image"></div>
+    <Fade>
+      <HomeCardDiv theme={{ image }}>
+        <div className="image"></div>
 
-      <div className="main">
-        <h3>{title}</h3>
-        <p>{desc}</p>
-      </div>
-      <Link href={link}>
-        <button>{button}</button>
-      </Link>
-    </HomeCardDiv>
+        <div className="main">
+          <h3>{title}</h3>
+          <p>{desc}</p>
+        </div>
+        <Link href={link}>
+          <button>{button}</button>
+        </Link>
+      </HomeCardDiv>
+    </Fade>
   );
 };
 

@@ -4,23 +4,20 @@ import {
   BannerCtn,
   BannerImage,
   BannerTitleCtn,
-  BannerTitle,
-  LogoIddi,
+  ContentCtn,
 } from './styles';
 
 const Banner = () => {
   return (
     <BannerCtn>
-      <LogoIddi src="/static/logo-iddi.webp" />
-      <BannerImage></BannerImage>
-      <BannerTitleCtn>
-        <BannerTitle>
-          <h1>7 de Agosto</h1>
-          <h3>
-            Batalla de Boyacá, una <br /> batalla por la libertad
-          </h3>
-        </BannerTitle>
-      </BannerTitleCtn>
+      <ContentCtn>
+        <BannerTitleCtn>
+          <h1>IDDI NUEVA GRANADA</h1>
+          <h2>202 AÑOS DE NUESTRA INDEPENDENCIA</h2>
+          <button>Departamento de Ciencias Sociales</button>
+        </BannerTitleCtn>
+        <BannerImage src="/static/logo-iddi.webp" />
+      </ContentCtn>
     </BannerCtn>
   );
 };

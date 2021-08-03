@@ -2,7 +2,9 @@ import styled from '@emotion/styled';
 
 export const HomeGridDiv = styled.div`
   width: 90%;
-  margin: 40px auto;
+  margin: 0 auto 40px auto;
+
+  transform: translateY(-100px);
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);

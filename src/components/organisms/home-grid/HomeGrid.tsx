@@ -60,7 +60,7 @@ const HomeGrid = () => {
         button="¡Escúchalo!"
         desc="¿De qué se trata esta fecha histórica? Estudiantes de sexto grado"
         image="/static/cards/bandera.jpg"
-        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
+        link="/videos?v=https://www.youtube.com/embed/XABJL1JRsSE"
       />
 
       <HomeCard

@@ -10,7 +10,7 @@ import {
   QuestionDiv,
   AnswersDiv,
   SubmitButtton,
-} from './styles';
+} from './main.styles';
 
 const Game = () => {
   const questions = questionsData.sort();

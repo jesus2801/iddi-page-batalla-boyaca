@@ -4,13 +4,14 @@ export const HomeCardDiv = styled.div`
   position: relative;
   top: 0;
   width: 100%;
+  height: 100%;
   background-color: #fff;
   border-radius: 5px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 
   transition: 300ms ease transform;
 

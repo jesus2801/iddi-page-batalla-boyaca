@@ -31,22 +31,17 @@ const Cards = () => {
     card: cardGameInfoI,
     e: MouseEvent<HTMLDivElement>
   ) => {
-    console.log('Entra a la función...');
     if (matchs.indexOf(card.id) !== -1 || pause) return;
 
-    console.log('Se da vuelta');
     const element = e.currentTarget;
     element.classList.toggle('active');
 
     if (activeCard.info) {
-      console.log('Hay una tarjeta activa');
       if (card.id === activeCard.info.id) {
-        console.log('Acierto - se agrega la pareja a las finalizadas');
         validSound.play();
         setMatchs([...matchs, card.id]);
       } else {
         pause = true;
-        console.log('desacierto - se elimina la pareja seleccionada');
         invalidSound.play();
 
         setTimeout(() => {

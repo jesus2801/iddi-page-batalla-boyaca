@@ -35,4 +35,14 @@ export const cardsGameInfo: cardGameInfoI[] = [
     type: 'image',
     info: '/static/characters/santander.jpg',
   },
+  {
+    id: 3,
+    type: 'card',
+    info: 'Teniente Coronel Joaquín Paris',
+  },
+  {
+    id: 3,
+    type: 'image',
+    info: '/static/characters/joaquin.jpg',
+  },
 ];

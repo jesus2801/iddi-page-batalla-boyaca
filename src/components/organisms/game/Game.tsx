@@ -13,7 +13,7 @@ import {
 } from './main.styles';
 
 const Game = () => {
-  const questions = questionsData.sort();
+  const questions = questionsData.sort(() => Math.random() - 0.5);
   const answersRef = useRef(null as null | HTMLDivElement);
 
   const [actualQuestion, setActualQuestion] = useState({

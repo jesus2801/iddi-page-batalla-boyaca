@@ -7,6 +7,14 @@ export const CardsCtn = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 
+  @media (max-width: 980px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 650px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .container {
     position: relative;
 

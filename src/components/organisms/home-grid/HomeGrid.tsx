@@ -8,6 +8,14 @@ const HomeGrid = () => {
   return (
     <HomeGridDiv>
       <HomeCard
+        title="Preescolar"
+        button="¡Echa un vistazo!"
+        desc="Los niños de preescolar..."
+        image="/static/cards/independencia-3.jpg"
+        link="/videos?v=https://www.youtube.com/embed/NR_S4cvqu4c"
+      />
+
+      <HomeCard
         title="Galería"
         button="¡Echa un vistazo!"
         desc="Observa detalladamente las imágenes de cada uno de los momentos cruciales que desencadenaron esta gran batalla"
@@ -28,7 +36,7 @@ const HomeGrid = () => {
         button="¡Veamos esas cualidades!"
         desc="Los jóvenes de 8° y 9° han preparado una sección donde enmarcan lo que nos une a nosotros como colombianos"
         image="/static/cards/colombianos.webp"
-        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
+        link="/videos?v=https://www.youtube.com/embed/CqCiGSKQSKo"
       />
 
       <HomeCard
@@ -68,7 +76,7 @@ const HomeGrid = () => {
         button="¡Primaria presente!"
         desc="Por medio de este noticiero infantil, te podrás enterar acerca de los acontecimientos más relevantes ocurridos en este hecho histórico"
         image="https://materialgalacticow.files.wordpress.com/2012/01/2099843_460s.jpg?w=376"
-        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
+        link="/videos?v=https://www.youtube.com/embed/ZemdAuUMCVU"
       />
     </HomeGridDiv>
   );

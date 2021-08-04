@@ -17,16 +17,16 @@ const HomeGrid = () => {
 
       <HomeCard
         title="Museo"
-        button="¡Descubre a estos héroes!"
-        desc="Descubre quiénes fueron cada uno de los principales personajes importantes que participaron en el marco de esta batalla de Boyacá"
+        button="¡Descúbrelos!"
+        desc="Descubre quiénes fueron los personajes principales que participaron en la Batalla de Boyacá"
         image="/static/cards/simon-bolivar.webp"
         link="/museum"
       />
 
       <HomeCard
-        title="Lo que nos representa"
+        title="Lo que nos une a los colombianos"
         button="¡Veamos esas cualidades!"
-        desc="Los jóvenes de 8° y 9° han preparado una sección donde enmarcan lo que nos representa a nosotros como colombianos"
+        desc="Los jóvenes de 8° y 9° han preparado una sección donde enmarcan lo que nos une a nosotros como colombianos"
         image="/static/cards/colombianos.webp"
         link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
@@ -48,25 +48,25 @@ const HomeGrid = () => {
       />
 
       <HomeCard
-        title="Salve usted la patria"
-        button="¡A por ello!"
-        desc="Los estudiantes de 6°"
+        title="Reportaje"
+        button="¡Escúchalo!"
+        desc="¿De qué se trata esta fecha histórica? Estudiantes de sexto grado"
         image="/static/cards/bandera.jpg"
         link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />
 
       <HomeCard
-        title="Reportería"
+        title="Un reportaje con la historia"
         button="¡Quiero verlo!"
         desc="Los estudiantes de 10° grado han tomado papel de reporteros con el fin de hacer un programa informativo que nos oriente más sobre esta temática"
         image="/static/cards/mic.jpeg"
-        link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
+        link="/videos?v=https://www.youtube.com/embed/I7k5RRlWWu4"
       />
 
       <HomeCard
         title="Noticiero"
-        button="¡Enterate de todo!"
-        desc="Por medio de este noticiero infantil te podrás enterar acerca de los acontecimientos más relevantes ocurridos en este hecho histórico"
+        button="¡Primaria presente!"
+        desc="Por medio de este noticiero infantil, te podrás enterar acerca de los acontecimientos más relevantes ocurridos en este hecho histórico"
         image="https://materialgalacticow.files.wordpress.com/2012/01/2099843_460s.jpg?w=376"
         link="/videos?v=https://www.youtube.com/embed/jlu9-7JjE78"
       />

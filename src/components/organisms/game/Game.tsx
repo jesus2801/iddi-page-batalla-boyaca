@@ -1,4 +1,4 @@
-import React, { MouseEvent, useRef, useState } from 'react';
+import React, { MouseEvent, useEffect, useRef, useState } from 'react';
 import { questionsData } from 'utils/questions.info';
 
 import Swal from 'sweetalert2';
@@ -23,6 +23,17 @@ const Game = () => {
   const [qAnswered, setQAnswered] = useState(false);
 
   const [points, setPoints] = useState(0);
+  const [validSound, setValidSound] = useState(
+    null as null | HTMLAudioElement
+  );
+  const [invalidSound, setInvalidSound] = useState(
+    null as null | HTMLAudioElement
+  );
+
+  useEffect(() => {
+    setValidSound(new Audio('/static/sounds/valid.mp3'));
+    setInvalidSound(new Audio('/static/sounds/invalid.mp3'));
+  }, []);
 
   const handleClick = (
     answer: { msg: string; v?: boolean },
@@ -31,8 +42,7 @@ const Game = () => {
     if (qAnswered) return;
 
     if (answer.v) {
-      const sound = new Audio('/static/sounds/valid.mp3');
-      sound.play();
+      validSound.play();
 
       e.currentTarget!.classList.add('valid');
       const divs = e.currentTarget.parentNode!.querySelectorAll('div');
@@ -42,8 +52,7 @@ const Game = () => {
 
       setPoints(points + 1);
     } else {
-      const sound = new Audio('/static/sounds/invalid.mp3');
-      sound.play();
+      invalidSound.play();
 
       const divs = e.currentTarget.parentNode!.querySelectorAll('div');
       divs.forEach(d => {
@@ -55,6 +64,8 @@ const Game = () => {
   };
 
   const handleNext = () => {
+    if (qAnswered === false) return;
+
     const divs = answersRef.current!.querySelectorAll('div');
 
     for (let i = 0, n = divs.length; i < n; i++) {

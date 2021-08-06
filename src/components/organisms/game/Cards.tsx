@@ -37,6 +37,14 @@ const Cards = () => {
     element.classList.toggle('active');
 
     if (activeCard.info) {
+      if (activeCard.info.info === card.info) {
+        setActiveCard({
+          card: null,
+          info: null,
+        });
+        return;
+      }
+
       if (card.id === activeCard.info.id) {
         validSound.play();
         setMatchs([...matchs, card.id]);

@@ -9,8 +9,8 @@ const HomeGrid = () => {
     <HomeGridDiv>
       <HomeCard
         title="¡Familia IDDISTA!"
-        button="¡Veamos la introducción!"
-        desc="Los invitamos a conmemorar los 202 años de la independencia de nuestra amada Colombia. Recuerda quien no conoce su historia está condenada a repetirla. Bienvenidos!"
+        button="¡Bienvenidos!"
+        desc="Te invitamos a dar click"
         image="/static/banner.jpeg"
         link="/videos?v=https://www.youtube.com/embed/N_dAn-ta4W4"
       />
